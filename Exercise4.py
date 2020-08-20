@@ -1,7 +1,8 @@
-def ex7(a):
-    word = a.count("Emma")
-    return(word)
+def ex4(a,b):
 
-x=input(" enter a word:")
-z=ex7(x)
+  return a[b:]
+
+x=input("enter a word: ")
+y=int(input("Enter a number: "))
+z=ex4(x, y)
 print(z)
