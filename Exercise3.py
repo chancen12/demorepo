@@ -1,6 +1,7 @@
 def ex3():
-    x="pynative"
-    for i in range(len(x)):
+    a=input("Enter a word: ")
+    for i in range(len(a)):
 	        if(i%2)==0:
-		         print(x[i])
+                   print(a[i])
+
 ex3()
